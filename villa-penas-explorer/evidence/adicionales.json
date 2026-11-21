@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "productoAdicionalId": 1,
+    "productoAdicional": {
+      "id": 1,
+      "nombre": "Palomitas de maíz",
+      "descripcion": "Preparación y servicio de palomitas recién hechas durante el evento.",
+      "imagenUrl": "/uploads/productos-adicionales/0b3ddd1a-eb02-4557-8ddc-39eae2b456f1.jpg"
+    },
+    "nombre": "Paquete 1 (15 porciones)",
+    "descripcion": "Porción de palomitas individuales en bolsitas ya sea de papel o pláticas transparentes",
+    "unidadMedida": "porción",
+    "cantidadIncluida": 10,
+    "cantidadPersonas": 10,
+    "precioVentaColones": 10000
+  },
+  {
+    "id": 2,
+    "productoAdicionalId": 1,
+    "productoAdicional": {
+      "id": 1,
+      "nombre": "Palomitas de maíz",
+      "descripcion": "Preparación y servicio de palomitas recién hechas durante el evento.",
+      "imagenUrl": "/uploads/productos-adicionales/0b3ddd1a-eb02-4557-8ddc-39eae2b456f1.jpg"
+    },
+    "nombre": "Paquete 2 (30 porciones)",
+    "descripcion": "Porción de palomitas individuales en bolsitas ya sea de papel o pláticas transparentes",
+    "unidadMedida": "porción",
+    "cantidadIncluida": 30,
+    "cantidadPersonas": 30,
+    "precioVentaColones": 15000
+  },
+  {
+    "id": 3,
+    "productoAdicionalId": 1,
+    "productoAdicional": {
+      "id": 1,
+      "nombre": "Palomitas de maíz",
+      "descripcion": "Preparación y servicio de palomitas recién hechas durante el evento.",
+      "imagenUrl": "/uploads/productos-adicionales/0b3ddd1a-eb02-4557-8ddc-39eae2b456f1.jpg"
+    },
+    "nombre": "Paquete 3 (50 porciones)",
+    "descripcion": null,
+    "unidadMedida": "porción",
+    "cantidadIncluida": 50,
+    "cantidadPersonas": 50,
+    "precioVentaColones": 20000
+  },
+  {
+    "id": 4,
+    "productoAdicionalId": 2,
+    "productoAdicional": {
+      "id": 2,
+      "nombre": "Algodón de azúcar",
+      "descripcion": "Preparación de algodón de azúcar servido individualmente durante el evento.",
+      "imagenUrl": "/uploads/productos-adicionales/51dc0f53-2a10-4593-ab01-b6f3bf31edfe.jpg"
+    },
+    "nombre": "Paquete 1 (15 porciones)",
+    "descripcion": "Porción de algodón de azúcar individuales en recipiente plástico transparentes.",
+    "unidadMedida": "vaso 24oz",
+    "cantidadIncluida": 15,
+    "cantidadPersonas": 15,
+    "precioVentaColones": 10000
+  },
+  {
+    "id": 5,
+    "productoAdicionalId": 2,
+    "productoAdicional": {
+      "id": 2,
+      "nombre": "Algodón de azúcar",
+      "descripcion": "Preparación de algodón de azúcar servido individualmente durante el evento.",
+      "imagenUrl": "/uploads/productos-adicionales/51dc0f53-2a10-4593-ab01-b6f3bf31edfe.jpg"
+    },
+    "nombre": "Paquete 2 (30 porciones)",
+    "descripcion": "Porción de algodón de azúcar individuales en recipiente plástico transparentes.",
+    "unidadMedida": "vaso 24oz",
+    "cantidadIncluida": 30,
+    "cantidadPersonas": 30,
+    "precioVentaColones": 15000
+  },
+  {
+    "id": 6,
+    "productoAdicionalId": 2,
+    "productoAdicional": {
+      "id": 2,
+      "nombre": "Algodón de azúcar",
+      "descripcion": "Preparación de algodón de azúcar servido individualmente durante el evento.",
+      "imagenUrl": "/uploads/productos-adicionales/51dc0f53-2a10-4593-ab01-b6f3bf31edfe.jpg"
+    },
+    "nombre": "Paquete 3 (50 porciones)",
+    "descripcion": "Porción de algodón de azúcar individuales en recipiente plástico transparentes.",
+    "unidadMedida": "vaso 24oz",
+    "cantidadIncluida": 50,
+    "cantidadPersonas": 50,
+    "precioVentaColones": 22000
+  },
+  {
+    "id": 7,
+    "productoAdicionalId": 3,
+    "productoAdicional": {
+      "id": 3,
+      "nombre": "Fuente de chocolate",
+      "descripcion": "Servicio de fuente de chocolate con acompañamientos de pinchos de marshmallow para los asistentes.",
+      "imagenUrl": "/uploads/productos-adicionales/27d5805b-4221-4eed-b911-db5375c55d4a.jpg"
+    },
+    "nombre": "Paquete 1 (15 porciones)",
+    "descripcion": "Servicio de fuente de chocolate con acompañamientos de pinchos de marshmallows para los asistentes.",
+    "unidadMedida": "porción",
+    "cantidadIncluida": 18,
+    "cantidadPersonas": 15,
+    "precioVentaColones": 30000
+  },
+  {
+    "id": 8,
+    "productoAdicionalId": 3,
+    "productoAdicional": {
+      "id": 3,
+      "nombre": "Fuente de chocolate",
+      "descripcion": "Servicio de fuente de chocolate con acompañamientos de pinchos de marshmallow para los asistentes.",
+      "imagenUrl": "/uploads/productos-adicionales/27d5805b-4221-4eed-b911-db5375c55d4a.jpg"
+    },
+    "nombre": "Paquete 2 (30 porciones)",
+    "descripcion": "Servicio de fuente de chocolate con acompañamientos de pinchos de marshmallows para los asistentes.",
+    "unidadMedida": "porción",
+    "cantidadIncluida": 36,
+    "cantidadPersonas": 30,
+    "precioVentaColones": 35000
+  },
+  {
+    "id": 9,
+    "productoAdicionalId": 3,
+    "productoAdicional": {
+      "id": 3,
+      "nombre": "Fuente de chocolate",
+      "descripcion": "Servicio de fuente de chocolate con acompañamientos de pinchos de marshmallow para los asistentes.",
+      "imagenUrl": "/uploads/productos-adicionales/27d5805b-4221-4eed-b911-db5375c55d4a.jpg"
+    },
+    "nombre": "Paquete 3 (50 porciones)",
+    "descripcion": "Servicio de fuente de chocolate con acompañamientos de pinchos de marshmallows para los asistentes.",
+    "unidadMedida": "porción",
+    "cantidadIncluida": 55,
+    "cantidadPersonas": 50,
+    "precioVentaColones": 40000
+  },
+  {
+    "id": 10,
+    "productoAdicionalId": 4,
+    "productoAdicional": {
+      "id": 4,
+      "nombre": "Adicional +20 personas",
+      "descripcion": "Aplicación: eventos de 31 personas en adelante",
+      "imagenUrl": "/uploads/productos-adicionales/541b5e73-300f-4cb7-a9ea-7fbf67d2caf8.jpg"
+    },
+    "nombre": "Paquete 1",
+    "descripcion": "Aplicación: eventos de 31 personas en adelante",
+    "unidadMedida": "unidad",
+    "cantidadIncluida": 20,
+    "cantidadPersonas": 20,
+    "precioVentaColones": 20000
+  }
+]

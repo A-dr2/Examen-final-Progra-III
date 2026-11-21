@@ -1,0 +1,34 @@
+import fs from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const origin = 'https://villa-penas-production.up.railway.app';
+const evidence = new URL('../evidence/', import.meta.url);
+await fs.mkdir(evidence, { recursive: true });
+const specification = JSON.parse(await fs.readFile(new URL('openapi.json', evidence), 'utf8'));
+const log = [];
+async function query(path, operation, file) {
+  const documented = specification.paths[operation]?.get;
+  assert.ok(documented, `GET ${operation} debe existir en Swagger`);
+  assert.ok(!(documented.security ?? specification.security)?.length, 'Debe estar documentada sin autenticación');
+  const start = performance.now();
+  const response = await fetch(origin + path, { method: 'GET', credentials: 'omit', headers: { Accept: 'application/json' }, signal: AbortSignal.timeout(20000) });
+  const body = await response.json();
+  log.push({ checkedAt: new Date().toISOString(), method: 'GET', url: origin + path, operation, credentials: 'omit', authorization: null, status: response.status, contentType: response.headers.get('content-type'), elapsedMs: Math.round(performance.now() - start), count: Array.isArray(body) ? body.length : 1, requestId: response.headers.get('x-railway-request-id') });
+  await fs.writeFile(new URL(file, evidence), JSON.stringify(body, null, 2) + '\n');
+  await fs.writeFile(new URL('api-verification.json', evidence), JSON.stringify(log, null, 2) + '\n');
+  assert.equal(response.status, 200);
+  return body;
+}
+const packages = await query('/public/paquetes', '/public/paquetes', 'paquetes.json');
+assert.ok(Array.isArray(packages));
+assert.ok(packages.length, 'Se necesita un paquete real para comprobar el detalle');
+assert.ok(packages.every(p => p.activo && typeof p.precioColones === 'number'));
+const extras = await query('/public/opciones-productos-adicionales', '/public/opciones-productos-adicionales', 'adicionales.json');
+assert.ok(Array.isArray(extras));
+assert.ok(extras.every(p => p.productoAdicional && typeof p.precioVentaColones === 'number'));
+const detail = await query(`/public/paquetes/${packages[0].id}`, '/public/paquetes/{id}', 'detalle-paquete.json');
+assert.equal(detail.id, packages[0].id);
+assert.equal(detail.nombre, packages[0].nombre);
+assert.equal(detail.precioColones, packages[0].precioColones);
+assert.ok(Array.isArray(detail.paquetesServicios));
+console.table(log.map(({ method, url, status, count, elapsedMs }) => ({ method, url, status, count, elapsedMs })));
+console.log('Tres operaciones públicas comprobadas sin credenciales. Evidencias actualizadas.');

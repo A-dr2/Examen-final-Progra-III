@@ -1,0 +1,41 @@
+[
+  {
+    "checkedAt": "2026-11-21T14:49:57.260Z",
+    "method": "GET",
+    "url": "https://villa-penas-production.up.railway.app/public/paquetes",
+    "operation": "/public/paquetes",
+    "credentials": "omit",
+    "authorization": null,
+    "status": 200,
+    "contentType": "application/json; charset=utf-8",
+    "elapsedMs": 447,
+    "count": 2,
+    "requestId": "aq__5t-MQA2TBRj29I3ezw"
+  },
+  {
+    "checkedAt": "2026-11-21T14:49:57.410Z",
+    "method": "GET",
+    "url": "https://villa-penas-production.up.railway.app/public/opciones-productos-adicionales",
+    "operation": "/public/opciones-productos-adicionales",
+    "credentials": "omit",
+    "authorization": null,
+    "status": 200,
+    "contentType": "application/json; charset=utf-8",
+    "elapsedMs": 145,
+    "count": 10,
+    "requestId": "eW9mLLIVRxOIOdSbwUFZXw"
+  },
+  {
+    "checkedAt": "2026-11-21T14:49:57.563Z",
+    "method": "GET",
+    "url": "https://villa-penas-production.up.railway.app/public/paquetes/1",
+    "operation": "/public/paquetes/{id}",
+    "credentials": "omit",
+    "authorization": null,
+    "status": 200,
+    "contentType": "application/json; charset=utf-8",
+    "elapsedMs": 151,
+    "count": 1,
+    "requestId": "3yeeQT85RYCH784MpHNmDw"
+  }
+]

@@ -1,0 +1,296 @@
+[
+  {
+    "id": 1,
+    "nombre": "Paquete Essentials",
+    "descripcion": "Incluye rancho, cocina equipada, piscina, playground, trampolín, Wi-Fi, zonas verdes y parqueo.",
+    "precioColones": 60000,
+    "activo": true,
+    "paquetesServicios": [
+      {
+        "id": 65,
+        "paqueteId": 1,
+        "servicioId": 2,
+        "cantidad": null,
+        "detalle": null,
+        "orden": 1,
+        "servicio": {
+          "id": 2,
+          "nombre": "Cocina equipada",
+          "descripcion": "Uso de cocina completamente equipada para preparar y almacenar alimentos.",
+          "unidadMedida": "evento",
+          "activo": true,
+          "fechaCreacion": "2026-08-27T02:53:30.287Z",
+          "fechaActualizacion": "2026-08-27T02:53:30.287Z"
+        }
+      },
+      {
+        "id": 66,
+        "paqueteId": 1,
+        "servicioId": 3,
+        "cantidad": null,
+        "detalle": null,
+        "orden": 2,
+        "servicio": {
+          "id": 3,
+          "nombre": "Piscina",
+          "descripcion": "Uso de piscina de 1,40 metros de profundidad, equipada con cascada e iluminación de colores.",
+          "unidadMedida": "evento",
+          "activo": true,
+          "fechaCreacion": "2026-08-27T02:54:38.143Z",
+          "fechaActualizacion": "2026-08-27T02:54:38.143Z"
+        }
+      },
+      {
+        "id": 67,
+        "paqueteId": 1,
+        "servicioId": 8,
+        "cantidad": null,
+        "detalle": null,
+        "orden": 3,
+        "servicio": {
+          "id": 8,
+          "nombre": "Playground",
+          "descripcion": "Acceso al área de juegos infantiles durante el evento.",
+          "unidadMedida": "evento",
+          "activo": true,
+          "fechaCreacion": "2026-08-27T02:56:42.773Z",
+          "fechaActualizacion": "2026-08-27T02:56:42.773Z"
+        }
+      },
+      {
+        "id": 68,
+        "paqueteId": 1,
+        "servicioId": 1,
+        "cantidad": null,
+        "detalle": null,
+        "orden": 4,
+        "servicio": {
+          "id": 1,
+          "nombre": "Rancho",
+          "descripcion": "Uso del rancho y sus áreas principales durante el evento.",
+          "unidadMedida": "evento",
+          "activo": true,
+          "fechaCreacion": "2026-08-27T02:53:05.605Z",
+          "fechaActualizacion": "2026-08-27T02:53:05.605Z"
+        }
+      },
+      {
+        "id": 69,
+        "paqueteId": 1,
+        "servicioId": 9,
+        "cantidad": null,
+        "detalle": null,
+        "orden": 5,
+        "servicio": {
+          "id": 9,
+          "nombre": "Trampolín",
+          "descripcion": "Uso del trampolín durante el evento.",
+          "unidadMedida": "evento",
+          "activo": true,
+          "fechaCreacion": "2026-08-27T02:57:03.080Z",
+          "fechaActualizacion": "2026-08-27T02:57:03.080Z"
+        }
+      },
+      {
+        "id": 70,
+        "paqueteId": 1,
+        "servicioId": 10,
+        "cantidad": null,
+        "detalle": null,
+        "orden": 6,
+        "servicio": {
+          "id": 10,
+          "nombre": "Wi-Fi",
+          "descripcion": "Acceso a conexión inalámbrica a Internet para los asistentes",
+          "unidadMedida": "evento",
+          "activo": true,
+          "fechaCreacion": "2026-08-27T02:57:20.872Z",
+          "fechaActualizacion": "2026-08-27T02:57:20.872Z"
+        }
+      }
+    ],
+    "fechaCreacion": "2026-08-27T03:01:08.024Z",
+    "fechaActualizacion": "2026-08-27T04:26:08.240Z"
+  },
+  {
+    "id": 2,
+    "nombre": "Paquete Premium",
+    "descripcion": "Incluye todos los servicios del paquete Exclusivo, más parrilla de gas Premium, sistema de sonido JBL PartyBox 720, micrófonos inalámbricos y Smart TV de 75 pulgadas.",
+    "precioColones": 80000,
+    "activo": true,
+    "paquetesServicios": [
+      {
+        "id": 7,
+        "paqueteId": 2,
+        "servicioId": 2,
+        "cantidad": null,
+        "detalle": null,
+        "orden": 1,
+        "servicio": {
+          "id": 2,
+          "nombre": "Cocina equipada",
+          "descripcion": "Uso de cocina completamente equipada para preparar y almacenar alimentos.",
+          "unidadMedida": "evento",
+          "activo": true,
+          "fechaCreacion": "2026-08-27T02:53:30.287Z",
+          "fechaActualizacion": "2026-08-27T02:53:30.287Z"
+        }
+      },
+      {
+        "id": 8,
+        "paqueteId": 2,
+        "servicioId": 6,
+        "cantidad": null,
+        "detalle": null,
+        "orden": 2,
+        "servicio": {
+          "id": 6,
+          "nombre": "Micrófonos inalámbricos",
+          "descripcion": "Uso de micrófonos inalámbricos conectados al sistema de sonido.",
+          "unidadMedida": "unidad",
+          "activo": true,
+          "fechaCreacion": "2026-08-27T02:55:57.813Z",
+          "fechaActualizacion": "2026-08-29T15:40:26.053Z"
+        }
+      },
+      {
+        "id": 9,
+        "paqueteId": 2,
+        "servicioId": 4,
+        "cantidad": null,
+        "detalle": null,
+        "orden": 3,
+        "servicio": {
+          "id": 4,
+          "nombre": "Parrilla de gas Premium",
+          "descripcion": "Uso de parrilla de gas Premium para preparar alimentos durante el evento.",
+          "unidadMedida": "evento",
+          "activo": true,
+          "fechaCreacion": "2026-08-27T02:55:16.888Z",
+          "fechaActualizacion": "2026-08-27T02:55:16.888Z"
+        }
+      },
+      {
+        "id": 10,
+        "paqueteId": 2,
+        "servicioId": 3,
+        "cantidad": null,
+        "detalle": null,
+        "orden": 4,
+        "servicio": {
+          "id": 3,
+          "nombre": "Piscina",
+          "descripcion": "Uso de piscina de 1,40 metros de profundidad, equipada con cascada e iluminación de colores.",
+          "unidadMedida": "evento",
+          "activo": true,
+          "fechaCreacion": "2026-08-27T02:54:38.143Z",
+          "fechaActualizacion": "2026-08-27T02:54:38.143Z"
+        }
+      },
+      {
+        "id": 11,
+        "paqueteId": 2,
+        "servicioId": 8,
+        "cantidad": null,
+        "detalle": null,
+        "orden": 5,
+        "servicio": {
+          "id": 8,
+          "nombre": "Playground",
+          "descripcion": "Acceso al área de juegos infantiles durante el evento.",
+          "unidadMedida": "evento",
+          "activo": true,
+          "fechaCreacion": "2026-08-27T02:56:42.773Z",
+          "fechaActualizacion": "2026-08-27T02:56:42.773Z"
+        }
+      },
+      {
+        "id": 12,
+        "paqueteId": 2,
+        "servicioId": 1,
+        "cantidad": null,
+        "detalle": null,
+        "orden": 6,
+        "servicio": {
+          "id": 1,
+          "nombre": "Rancho",
+          "descripcion": "Uso del rancho y sus áreas principales durante el evento.",
+          "unidadMedida": "evento",
+          "activo": true,
+          "fechaCreacion": "2026-08-27T02:53:05.605Z",
+          "fechaActualizacion": "2026-08-27T02:53:05.605Z"
+        }
+      },
+      {
+        "id": 13,
+        "paqueteId": 2,
+        "servicioId": 5,
+        "cantidad": null,
+        "detalle": null,
+        "orden": 7,
+        "servicio": {
+          "id": 5,
+          "nombre": "Sistema de sonido JBL PartyBox 720",
+          "descripcion": "Uso del sistema de sonido JBL PartyBox 720 para música y entretenimiento.",
+          "unidadMedida": "evento",
+          "activo": true,
+          "fechaCreacion": "2026-08-27T02:55:38.943Z",
+          "fechaActualizacion": "2026-08-27T02:55:38.943Z"
+        }
+      },
+      {
+        "id": 14,
+        "paqueteId": 2,
+        "servicioId": 7,
+        "cantidad": null,
+        "detalle": null,
+        "orden": 8,
+        "servicio": {
+          "id": 7,
+          "nombre": "Smart TV de 75 pulgadas",
+          "descripcion": "Uso de Smart TV de 75 pulgadas para proyección de contenido y entretenimiento.",
+          "unidadMedida": "evento",
+          "activo": true,
+          "fechaCreacion": "2026-08-27T02:56:22.290Z",
+          "fechaActualizacion": "2026-08-27T02:56:22.290Z"
+        }
+      },
+      {
+        "id": 15,
+        "paqueteId": 2,
+        "servicioId": 9,
+        "cantidad": null,
+        "detalle": null,
+        "orden": 9,
+        "servicio": {
+          "id": 9,
+          "nombre": "Trampolín",
+          "descripcion": "Uso del trampolín durante el evento.",
+          "unidadMedida": "evento",
+          "activo": true,
+          "fechaCreacion": "2026-08-27T02:57:03.080Z",
+          "fechaActualizacion": "2026-08-27T02:57:03.080Z"
+        }
+      },
+      {
+        "id": 16,
+        "paqueteId": 2,
+        "servicioId": 10,
+        "cantidad": null,
+        "detalle": null,
+        "orden": 10,
+        "servicio": {
+          "id": 10,
+          "nombre": "Wi-Fi",
+          "descripcion": "Acceso a conexión inalámbrica a Internet para los asistentes",
+          "unidadMedida": "evento",
+          "activo": true,
+          "fechaCreacion": "2026-08-27T02:57:20.872Z",
+          "fechaActualizacion": "2026-08-27T02:57:20.872Z"
+        }
+      }
+    ],
+    "fechaCreacion": "2026-08-27T03:02:45.070Z",
+    "fechaActualizacion": "2026-08-27T03:02:45.070Z"
+  }
+]

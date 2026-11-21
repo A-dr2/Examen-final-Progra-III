@@ -1,0 +1,42 @@
+[
+  {
+    "url": "http://127.0.0.1:4174/",
+    "status": 200,
+    "upstream": null,
+    "railwayRequestId": null,
+    "contentType": "text/html",
+    "bytes": 580
+  },
+  {
+    "url": "http://127.0.0.1:4174/consulta/public/paquetes",
+    "status": 200,
+    "upstream": "https://villa-penas-production.up.railway.app/public/paquetes",
+    "railwayRequestId": "xjAoUSGGQeyEZuSmljLL4A",
+    "contentType": "application/json; charset=utf-8",
+    "bytes": 6037
+  },
+  {
+    "url": "http://127.0.0.1:4174/consulta/public/opciones-productos-adicionales",
+    "status": 200,
+    "upstream": "https://villa-penas-production.up.railway.app/public/opciones-productos-adicionales",
+    "railwayRequestId": "paTwxtltS8iLjLoj0_TJvA",
+    "contentType": "application/json; charset=utf-8",
+    "bytes": 4956
+  },
+  {
+    "url": "http://127.0.0.1:4174/consulta/public/paquetes/1",
+    "status": 200,
+    "upstream": "https://villa-penas-production.up.railway.app/public/paquetes/1",
+    "railwayRequestId": "GhI76l0sQKOFGo9D0_TJvA",
+    "contentType": "application/json; charset=utf-8",
+    "bytes": 2273
+  },
+  {
+    "url": "http://127.0.0.1:4174/consulta/public/clientes",
+    "status": 405,
+    "upstream": null,
+    "railwayRequestId": null,
+    "contentType": "application/json",
+    "bytes": 68
+  }
+]

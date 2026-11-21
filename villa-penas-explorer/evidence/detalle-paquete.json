@@ -1,0 +1,113 @@
+{
+  "id": 1,
+  "nombre": "Paquete Essentials",
+  "descripcion": "Incluye rancho, cocina equipada, piscina, playground, trampolín, Wi-Fi, zonas verdes y parqueo.",
+  "precioColones": 60000,
+  "activo": true,
+  "paquetesServicios": [
+    {
+      "id": 65,
+      "paqueteId": 1,
+      "servicioId": 2,
+      "cantidad": null,
+      "detalle": null,
+      "orden": 1,
+      "servicio": {
+        "id": 2,
+        "nombre": "Cocina equipada",
+        "descripcion": "Uso de cocina completamente equipada para preparar y almacenar alimentos.",
+        "unidadMedida": "evento",
+        "activo": true,
+        "fechaCreacion": "2026-08-27T02:53:30.287Z",
+        "fechaActualizacion": "2026-08-27T02:53:30.287Z"
+      }
+    },
+    {
+      "id": 66,
+      "paqueteId": 1,
+      "servicioId": 3,
+      "cantidad": null,
+      "detalle": null,
+      "orden": 2,
+      "servicio": {
+        "id": 3,
+        "nombre": "Piscina",
+        "descripcion": "Uso de piscina de 1,40 metros de profundidad, equipada con cascada e iluminación de colores.",
+        "unidadMedida": "evento",
+        "activo": true,
+        "fechaCreacion": "2026-08-27T02:54:38.143Z",
+        "fechaActualizacion": "2026-08-27T02:54:38.143Z"
+      }
+    },
+    {
+      "id": 67,
+      "paqueteId": 1,
+      "servicioId": 8,
+      "cantidad": null,
+      "detalle": null,
+      "orden": 3,
+      "servicio": {
+        "id": 8,
+        "nombre": "Playground",
+        "descripcion": "Acceso al área de juegos infantiles durante el evento.",
+        "unidadMedida": "evento",
+        "activo": true,
+        "fechaCreacion": "2026-08-27T02:56:42.773Z",
+        "fechaActualizacion": "2026-08-27T02:56:42.773Z"
+      }
+    },
+    {
+      "id": 68,
+      "paqueteId": 1,
+      "servicioId": 1,
+      "cantidad": null,
+      "detalle": null,
+      "orden": 4,
+      "servicio": {
+        "id": 1,
+        "nombre": "Rancho",
+        "descripcion": "Uso del rancho y sus áreas principales durante el evento.",
+        "unidadMedida": "evento",
+        "activo": true,
+        "fechaCreacion": "2026-08-27T02:53:05.605Z",
+        "fechaActualizacion": "2026-08-27T02:53:05.605Z"
+      }
+    },
+    {
+      "id": 69,
+      "paqueteId": 1,
+      "servicioId": 9,
+      "cantidad": null,
+      "detalle": null,
+      "orden": 5,
+      "servicio": {
+        "id": 9,
+        "nombre": "Trampolín",
+        "descripcion": "Uso del trampolín durante el evento.",
+        "unidadMedida": "evento",
+        "activo": true,
+        "fechaCreacion": "2026-08-27T02:57:03.080Z",
+        "fechaActualizacion": "2026-08-27T02:57:03.080Z"
+      }
+    },
+    {
+      "id": 70,
+      "paqueteId": 1,
+      "servicioId": 10,
+      "cantidad": null,
+      "detalle": null,
+      "orden": 6,
+      "servicio": {
+        "id": 10,
+        "nombre": "Wi-Fi",
+        "descripcion": "Acceso a conexión inalámbrica a Internet para los asistentes",
+        "unidadMedida": "evento",
+        "activo": true,
+        "fechaCreacion": "2026-08-27T02:57:20.872Z",
+        "fechaActualizacion": "2026-08-27T02:57:20.872Z"
+      }
+    }
+  ],
+  "fechaCreacion": "2026-08-27T03:01:08.024Z",
+  "fechaActualizacion": "2026-08-27T04:26:08.240Z"
+}
